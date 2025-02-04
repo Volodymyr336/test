@@ -1,4 +1,3 @@
-// File: helpers/verifyResponse.ts
 import { expect, APIResponse } from '@playwright/test';
 
 export async function verifyResponse(response: APIResponse, expectedStatus: number): Promise<void> {
